@@ -1,0 +1,10 @@
+Greetings!
+
+You just signed up for and account at {{site.name}}. Please click the link below to activate it.
+
+http://{{site.domain}}{% url 'registration_activate' activation_key %}
+
+This link is valid for {{expiration_days}}. If it was not you that signed up for this account,
+please you may ignore this email.
+
+- The Bookstore Crew -
