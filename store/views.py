@@ -7,4 +7,8 @@ def index(request):
 
 
 def store(request):
-    return render(request, 'store.html')
+    count = Book.objects.all().count()
+    context = {
+        'count':count,
+    }
+    return render(request, 'store.html', context)
