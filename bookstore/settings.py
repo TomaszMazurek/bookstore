@@ -107,3 +107,13 @@ STATIC_URL = '/static/'
 
 ACCOUNT_ACTIVATION_DAYS = 7
 REGISTRATION_AUTO_LOGIN = True
+LOGIN_REDIRECT_URL = '/store/'
+
+#Email settings
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_HOST_USER = "temp.django.bookstore@gmail.com"
+EMAIL_HOST_PASSWORD = "!Passw0rd!"
+EMAIL_PORT = 587 #tls port
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = "books@bookstore.com"

@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bd8d67f-9476-4b14-a90b-5b70f19cfe30" name="Default" comment="pycharm second commit&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store/templates/registration/activate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store/templates/registration/activation_complete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store/templates/registration/activation_email.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store/templates/registration/activation_email_subject.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store/templates/registration/registration_complete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store/templates/registration/registration_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookstore/settings.py" afterPath="$PROJECT_DIR$/bookstore/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookstore/urls.py" afterPath="$PROJECT_DIR$/bookstore/urls.py" />
     </list>
     <ignored path="bookstore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bookstore/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state relative-caret-position="712">
+              <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -130,7 +120,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activation_email_subject.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activation_email_subject.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/store/templates/registration/activation_email_subject.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -159,7 +149,6 @@
         <option value="$PROJECT_DIR$/store/urls.py" />
         <option value="$PROJECT_DIR$/store/views.py" />
         <option value="$PROJECT_DIR$/store/templates/store.html" />
-        <option value="$PROJECT_DIR$/bookstore/settings.py" />
         <option value="$PROJECT_DIR$/bookstore/urls.py" />
         <option value="$PROJECT_DIR$/store/templates/registration/activation_complete.html" />
         <option value="$PROJECT_DIR$/store/templates/registration/activate.html" />
@@ -167,6 +156,7 @@
         <option value="$PROJECT_DIR$/store/templates/registration/registration_complete.html" />
         <option value="$PROJECT_DIR$/store/templates/registration/activation_email.txt" />
         <option value="$PROJECT_DIR$/store/templates/registration/activation_email_subject.txt" />
+        <option value="$PROJECT_DIR$/bookstore/settings.py" />
       </list>
     </option>
   </component>
@@ -846,14 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bookstore/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -908,6 +890,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
           <folding />
         </state>
       </provider>
