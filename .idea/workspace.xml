@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bd8d67f-9476-4b14-a90b-5b70f19cfe30" name="Default" comment="pycharm second commit&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookstore/settings.py" afterPath="$PROJECT_DIR$/bookstore/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookstore/urls.py" afterPath="$PROJECT_DIR$/bookstore/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/templates/registration/login.html" afterPath="$PROJECT_DIR$/store/templates/registration/login.html" />
-    </list>
+    <list default="true" id="1bd8d67f-9476-4b14-a90b-5b70f19cfe30" name="Default" comment="pycharm second commit&#10;" />
     <ignored path="bookstore.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
