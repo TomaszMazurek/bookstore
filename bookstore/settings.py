@@ -79,6 +79,8 @@ WSGI_APPLICATION = 'bookstore.wsgi.application'
 
 AUTHENTICATION_BACKENDS = {
     'social.backends.facebook.FacebookOAuth2',
+    'social.backends.google.GoogleOAuth2',
+    'social.backends.twitter.TwitterOAuth',
     'django.contrib.auth.backends.ModelBackend',
 }
 
@@ -131,3 +133,7 @@ DEFAULT_FROM_EMAIL = "books@bookstore.com"
 #Social Auth - Facebook
 SOCIAL_AUTH_FACEBOOK_KEY = '1898460467044587'
 SOCIAL_AUTH_FACEBOOK_SECRET = '3966c26e1ac4d028f89c69590e594a95'
+
+#Social Auth - Google
+GOOGLE_OAUTH2_CLIENT_ID = '696094453237-l84fqodutp0q9agp3mu719mmsmojdsqi.apps.googleusercontent.com'
+GOOGLE_OAUTH2_CLIENT_SECRET = 'JGJTaY8WnPM9fEZm_gGlmF9w'
